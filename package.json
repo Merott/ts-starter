@@ -2,10 +2,15 @@
   "name": "bacp-crawler",
   "module": "index.ts",
   "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
+  "scripts": {
+    "start": "bun run .",
+    "prepare": "husky"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "devDependencies": {
+    "bun-types": "latest",
+    "husky": "^9.0.11",
+    "prettier": "^3.3.2",
+    "pretty-quick": "^4.0.0",
+    "typescript": "^5.5.2"
   }
 }
