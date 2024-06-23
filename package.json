@@ -2,6 +2,7 @@
   "name": "bacp-crawler",
   "module": "index.ts",
   "type": "module",
+  "license": "UNLICENSED",
   "scripts": {
     "prepare": "husky",
     "start": "bun run .",
