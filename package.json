@@ -6,7 +6,8 @@
   "scripts": {
     "prepare": "husky",
     "start": "bun run .",
-    "validate": "eslint"
+    "test": "vitest",
+    "validate": "eslint && vitest --run"
   },
   "devDependencies": {
     "@eslint/js": "^9.5.0",
@@ -18,6 +19,8 @@
     "prettier": "^3.3.2",
     "pretty-quick": "^4.0.0",
     "typescript": "~5.4.0",
-    "typescript-eslint": "^7.13.1"
+    "typescript-eslint": "^7.13.1",
+    "vite-tsconfig-paths": "^4.3.2",
+    "vitest": "^2.0.3"
   }
 }
