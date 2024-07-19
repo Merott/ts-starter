@@ -1,15 +1,16 @@
-# bacp-crawler
+# ts-starter
 
-To install dependencies:
+This is a simple and minimal starter project for TypeScript with Bun.
+
+I often build little tools to get stuff done or experiment with new ideas. This project provides a clean starting point for those kinds of quick TypeScript projects.
+
+It comes with ESLint, Prettier, and Vitest, which are my go-to tools for linting, formatting, and testing TypeScript code.
+
+## How to use
 
 ```bash
+git clone --depth 1 git@github.com:Merott/ts-starter.git my-new-ts-project
+cd my-new-ts-project
 bun install
-```
-
-To run:
-
-```bash
 bun start
 ```
-
-This project was created using `bun init` in bun v1.0.4. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
