@@ -2,7 +2,7 @@
   "name": "bacp-crawler",
   "module": "index.ts",
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "prepare": "husky",
     "start": "bun run .",
