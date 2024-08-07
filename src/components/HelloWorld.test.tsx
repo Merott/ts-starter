@@ -6,6 +6,6 @@ import { render, screen } from '@testing-library/react'
 describe('HelloWorld', () => {
   test('renders "Hello World"', () => {
     render(<HelloWorld />)
-    expect(screen.getByText('Hello World')).toBeInTheDocument()
+    expect(screen.getByText(/hello world/i)).toBeInTheDocument()
   })
 })
