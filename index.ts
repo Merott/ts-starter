@@ -1,3 +1,3 @@
-import { example } from '~/example'
+import { sum } from '~/utils'
 
-console.log(`================\nHello ${example()}\n================`)
+console.log(`==========\n1 + 2 = ${sum(1, 2)}\n==========`)
