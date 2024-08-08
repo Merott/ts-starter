@@ -4,6 +4,16 @@
     "plugin:@typescript-eslint/strict-type-checked",
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
+  "rules": {
+    "@typescript-eslint/restrict-template-expressions": [
+      "error",
+      { "allowNumber": true }
+    ],
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      { "fixStyle": "inline-type-imports" }
+    ]
+  },
   "parserOptions": {
     "project": "./tsconfig.json",
     "tsconfigRootDir": "."
